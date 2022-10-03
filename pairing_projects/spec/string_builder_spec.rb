@@ -1,9 +1,9 @@
 require 'string_builder'
 RSpec.describe StringBuilder do 
     it "counts the characters of a string" do 
-        StringBuilder.new("Makers")
-        StringBuilder.add("Academy")
-        StringBuilder.size(14)
-        expect(result).to eq('MakersAcademy')
+        stringbuilder = StringBuilder.new("")
+        stringbuilder.add("Makers")
+        stringbuilder.ouput
+        expect(result).to eq 'Makers'
     end 
 end 
