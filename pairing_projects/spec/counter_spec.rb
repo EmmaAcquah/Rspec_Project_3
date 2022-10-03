@@ -7,6 +7,6 @@ RSpec.describe Counter do
         counter.add(2)
         counter.add(3)
         result = counter.report
-        expect(result).to eq 'Counted to 9 so far.'
+        expect(result).to eq 'Counted to 10 so far.'
     end
 end
