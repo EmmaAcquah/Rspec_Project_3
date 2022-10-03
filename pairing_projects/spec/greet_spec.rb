@@ -1,6 +1,8 @@
 require 'name' 
-RSpec. describe "return the name method"
-    it "returns the name"
-        result = greet('angelise')
-        expect (result). to eq "Hello Angelise!"
+RSpec.describe "return the name method" do 
+    it "returns the name" do 
+        result = greet('angelise') 
+        expect(result).to eq "Hello Angelise!"
+    end 
+
 end
